@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;    
+    box-sizing: border-box;
+    background-position: fixed;   
+
+}
+
+main {    
+    background-color: white;
+    color: #045cbc;
+    margin: 200px 200px;
+    padding: 30px 30px;    
+    border: solid 15px #001c41;
+    border-radius: 20px;    
+    font-family: Helvetica, sans-serif; 
+    
+            
+} 
+
+fieldset {
+    margin: 20px 20px;
+    padding: 20px 20px;    
+    border-radius: 10px;       
+    border: solid 1px #045cbc;
+    display: block;   
+    flex-direction: column;
+       
+}
+
+label {    
+    text-align: center;
+    margin: 5px;      
+    padding: 5px; 
+    
+}
+
+#image {
+    height: 100px;
+    width: 150px;    
+    display: flex;            
+
+}
+
+textarea {
+    height: 90%;
+    width: 90%;
+    border-color: #001c41;
+}
+
+#btnEncode, #btnDecode {
+    height: 100%;
+    width: 100%;
+    background-color: #ffcf01;
+    color: #001c41;
+    border-radius: 4px;
+    border: none;    
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+     
+       
+}
+
+#button {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    align-content: center; 
+        
+}
+
+#btnEncode:hover, #btnDecode:hover {
+    background-color: #045cbc;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#header {
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-number {
+    display: flex;
+    border-color: #001c41;
+    color: #001c41;
+    
+}
+
+#box-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #001c41;
+    border: solid 10px #001c41 ;
+    
+}
+
+h1 {
+    color: #ffcf01;
+    border: solid 15px #001c41;
+    border-radius: 20px; 
+    background-color: #001c41;
+}
+
+p { 
+    color: #001c41;
+}

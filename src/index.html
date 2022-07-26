@@ -1,14 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Ukraine Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+  <body>     
+
+    <main id="container">    
+            
+      <section id="header"> 
+        <h1>Ukraine Cipher</h1>      
+        <p><i>Seja bem-vindo(a)!</i></p>
+      </section>      
+
+      <form>     
+        
+        <fieldset id="box-number">
+          <label for="offset">Escolha o número do deslocamento:   
+            <input id="offset" type="number" placeholder="Número" required />        
+          </label>
+        </fieldset>
+
+        <div id="flex-container">
+          
+          <fieldset id="box-message">
+            <label for="message">Mensagem:  </label>
+              <textarea id="message" rows="5" cols="80" placeholder="Escreva aqui a mensagem que deseja criptografar..."></textarea>        
+              
+          </fieldset>        
+                
+  
+          <section id="button">
+            <input type="submit" id="btnEncode" value="Cifrar" />
+            <input type="submit" id="btnDecode" value="Decifrar" />          
+          </section>  
+          
+          
+            <fieldset id="box-message">
+              <label for="cipherMessage">Mensagem criptografada:  </label>
+                <textarea id="cipherMessage" rows="5" cols="80" placeholder="Aqui está sua mensagem criptografada.."></textarea>        
+              
+            </fieldset>      
+                      
+        </div>
+
+      </form>
+    </main> 
     <script src="index.js" type="module"></script>
   </body>
 </html>
