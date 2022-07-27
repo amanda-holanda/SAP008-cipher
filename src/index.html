@@ -6,13 +6,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>     
-
-    <main id="container">    
+    <main>    
             
-      <section id="header"> 
+      <header> 
         <h1>Ukraine Cipher</h1>      
         <p><i>Seja bem-vindo(a)!</i></p>
-      </section>      
+      </header>      
 
       <form>     
         
@@ -28,23 +27,20 @@
             <label for="message">Mensagem:  </label>
               <textarea id="message" rows="5" cols="80" placeholder="Escreva aqui a mensagem que deseja criptografar..."></textarea>        
               
-          </fieldset>        
-                
-  
-          <section id="button">
+          </fieldset>       
+               
+          <section id="box-button">
             <input type="submit" id="btnEncode" value="Cifrar" />
             <input type="submit" id="btnDecode" value="Decifrar" />          
-          </section>  
+          </section>            
           
-          
-            <fieldset id="box-message">
-              <label for="cipherMessage">Mensagem criptografada:  </label>
-                <textarea id="cipherMessage" rows="5" cols="80" placeholder="Aqui está sua mensagem criptografada.."></textarea>        
+          <fieldset id="box-message">
+            <label for="cipherMessage">Mensagem criptografada: </label>
+              <textarea id="cipherMessage" rows="5" cols="80" placeholder="Aqui está sua mensagem criptografada..."></textarea>        
               
-            </fieldset>      
+          </fieldset>      
                       
         </div>
-
       </form>
     </main> 
     <script src="index.js" type="module"></script>

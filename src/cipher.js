@@ -1,12 +1,10 @@
 const cipher = { encode, decode };
 
 function encode(offset, message){
-
   let converterTexto = "";
-
-  for (let i = 0, j = message.length; i < j; i++) {
-    let numAscii = ((message.charCodeat(i) - 65 + offset) % 26) + 65;
-    converterTexto += message.fromCharcode(numAscii);    
+  for (let i = 0; i < message.length; i++) {
+    let numAscii = ((message.charCodeAt(i) - 65 + offset) % 26) + 65;
+    converterTexto += String.fromCharCode(numAscii);    
   }
   
   return converterTexto;
@@ -15,9 +13,9 @@ function encode(offset, message){
 
 function decode(offset, message) {
   let converterTexto = "";
-  for (let i = 0, j = message.length; i < j; i++) {
-    let numAscii = ((message.charCodeat(i) - 65 + offset) % 26) + 65;
-    converterTexto += message.fromCharcode(numAscii);    
+  for (let i = 0; i < message.length; i++) {
+    let numAscii = ((message.charCodeAt(i) - 90 + offset) % 26) + 90;
+    converterTexto += String.fromCharCode(numAscii);    
   }
   return converterTexto;
 };

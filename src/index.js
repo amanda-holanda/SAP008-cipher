@@ -4,17 +4,16 @@ const cifrar = document.querySelector('#btnEncode')
 
 cifrar.addEventListener("click", function(e) {
     e.preventDefault();
-    console.log("oiola");
-
+    
     let offset = parseInt(document.querySelector('#offset').value) ;
 
     let message = document.querySelector('#message').value ;
     message = message.toUpperCase();
 
-    let result = cipher.encode(offset, message);
-    document.getElementById('cipherMessage').innerHTML = result;
+    let resultEncode = cipher.encode(offset, message);
+    document.getElementById('cipherMessage').innerHTML = resultEncode;
 
-    //console.log(result);
+    console.log(resultEncode);
 });
 
 const decifrar = document.querySelector('#btnDecode');
@@ -23,12 +22,13 @@ decifrar.addEventListener("click", function(e) {
     e.preventDefault();
 
     let offset = parseInt(document.querySelector('#offset').value) ;
-    let message = document.querySelector('#message').value ;
+    let message = document.querySelector('#cipherMessage').value ;
+    message = message.toUpperCase();
     
-    let result = cipher.decode(offset, message);
-    document.getElementById('cipherMessage').innerHTML = result;
+    let resultDecode = cipher.decode(offset, message);
+    document.getElementById('message').innerHTML = resultDecode;
 
-    //console.log(result);
+    console.log(resultDecode);
 });
 
 
