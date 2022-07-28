@@ -2,7 +2,7 @@ import cipher from './cipher.js';
 
 const cifrar = document.querySelector('#btnEncode')
 
-cifrar.addEventListener("click", function(e) {
+cifrar.addEventListener('click', function(e) {
     e.preventDefault();
     
     let offset = parseInt(document.querySelector('#offset').value) ;
@@ -18,7 +18,7 @@ cifrar.addEventListener("click", function(e) {
 
 const decifrar = document.querySelector('#btnDecode');
 
-decifrar.addEventListener("click", function(e) {
+decifrar.addEventListener('click', function(e) {
     e.preventDefault();
 
     let offset = parseInt(document.querySelector('#offset').value) ;
