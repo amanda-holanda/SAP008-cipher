@@ -1,23 +1,31 @@
 const cipher = { encode, decode };
 
-function encode(offset, message){
+function encode(offset, string){
+  if(typeof offset != 'number' || typeof string != 'string') {
+    throw TypeError();
+  }
+
   let converterTexto = "";
-  for (let i = 0; i < message.length; i++) {
-    let numAscii = ((message.charCodeAt(i) - 65 + offset) % 26) + 65;
+  for (let i = 0; i < string.length; i++) {
+    let numAscii = ((string.charCodeAt(i) - 65 + offset) % 26) + 65;
     converterTexto += String.fromCharCode(numAscii);    
   }
   
   return converterTexto;
 
-};
+}
 
-function decode(offset, message) {
+function decode(offset, string) {
+  if(typeof offset != 'number' || typeof string != 'string') {
+    throw TypeError();
+  }
+
   let converterTexto = "";
-  for (let i = 0; i < message.length; i++) {
-    let numAscii = ((message.charCodeAt(i) - 65 - offset) % 26) + 65;
+  for (let i = 0; i < string.length; i++) {
+    let numAscii = ((string .charCodeAt(i) - 90 - offset) % 26) + 90;
     converterTexto += String.fromCharCode(numAscii);    
   }
   return converterTexto;
-};
+}
 
 export default cipher;

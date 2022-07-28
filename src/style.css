@@ -76,7 +76,7 @@ textarea {
     align-content: center;
 }
 
-#box-message {
+#box-message, #box-cipher-message {
     display: flex;
     justify-content: center;
     align-items: center;
