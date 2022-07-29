@@ -1,15 +1,67 @@
-- [ ] ##### Processo e decisões de desenho:
+# Cifra de César
 
-  Desenhei um modelo protótipo no caderno (perguntar se precisa colocar foto aqui). Quando me deparei com o tema, pensei em fazer um site direcionado ao governo da Ucrania para que eles conseguissem se comunicar de forma segura internamente e evitar que suas mensagens fossem hackeadas pelos seus inimigos durante o contexto da guerra na qual estão vivendo.
+## Índice
 
-  ​
+- 1. Prefácio
+- 2. Resumo do projeto
+- 3. Interface do usuário
+- 4. Estrutura de organização dos arquivos
+- 5. Ferramentas utilizadas no projeto
 
-  ##### Usuários e as suas relações com o produto:
+## 1. Prefácio
 
-  Os principais usuários do produto são o governo ucraniano e todos os seus colaboradores. O produto visa proporcionar segurança para a comunicação entre o governo ucraniano no contexto da guerra.
+Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha.
 
-  ​
+![img](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
-  ##### Como o produto soluciona os problemas/necessidades dos usuários? Quais são os objetivos do usuário em relação com o produto? Como você acredita que o produto está resolvendo os problemas do usuário?
+A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
 
-  O produto soluciona as necessidades do governo ucraniano de se comunicar de forma segura num contexto de guerra. 
+Por exemplo se usarmos o deslocamento (*offset*) de 3 posições:
+
+- Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+- A letra A será D
+- A palavra CASA será FDVD
+
+Atualmente todas as cifras de substituição alfabética simples, são decifradas com facilidade e não oferecem muita segurança na comunicação por si mesma, mas a cifra de César muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
+
+## 2. Resumo do projeto
+
+O projeto foi desenvolvido durante o período do Bootcamp da Laboratória Brasil (turma SAP008).
+
+Este configura uma aplicação web de cifragem na qual utilizou-se HTML, CSS e JavaScript para o seu desenvolvimento. A lógica do projeto teve como base o sistema de cifragem da Cifra de César, possibilitando que o usuário cifre ou decifre um texto indicando uma chave de deslocamento. Baseou-se no protótipo de baixa fidelidade desenhado abaixo:
+
+![prototipo](C:\Users\Amanda Holanda\Downloads\prototipo.jpeg)
+
+O tema do projeto foi inspirado na Guerra da Ucrânica. Desenvolveu-se uma aplicação web de cifragem direcionada ao governo ucraniano com o objetivo de que os integrantes do governo consigam se comunicar de forma segura internamente e, dessa maneira, evitar que suas mensagens sejam compreendidas pelo Governo Russo e outros países inimigos.
+
+Logo, os principais usuários do produto são os integrantes do governo ucraniano e o principal objetivo do mesmo é proporcionar segurança na comunicação do governo num contexto de guerra.
+
+Por fim, o website foi desenvolvido com sua paleta de cores inspirada nas cores da bandeira da Ucrânia (azul e amarelo) e o seu nome “Ukraine Cipher” faz alusão a uma “Cifra da Ucrânia”.
+
+## 3. Interface do usuário
+
+A interface do projeto foi idealizada com o objetivo de que o usuário:
+
+- Escolha um número indicando quantas posições de deslocamento de caracteres a cifragem deve utilizar;
+- Insira uma mensagem (texto) para ser cifrada;
+- Consiga ver o resultado da mensagem cifrada ao apertar o botão de cifrar.
+- Insira uma mensagem (texto) para ser decifrada;
+- Consiga ver o resultado da mensagem decifrada ao apertar o botão decifrar.
+
+## 4. Estrutura de organização dos arquivos
+
+A estruturação dos arquivos da aplicação web se dá da seguinte forma:
+
+- index.html contém o código de estruturação da página web;
+- style.css contém o código de estilização da página web;
+- cipher.js contém a lógica do código para o mecanismo de cifragem e de decifragem;
+- index.js contém a lógica do código de manipulação do DOM com interação do usuário na página.
+
+## 5. Ferramentas utilizadas no projeto
+
+- Visual Studio Code;
+- Notion;
+- Git.
+
+## 

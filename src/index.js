@@ -11,7 +11,8 @@ cifrar.addEventListener('click', function(e) {
     string = string.toUpperCase();
 
     let resultEncode = cipher.encode(offset, string);
-    document.getElementById('cipherMessage').innerHTML = resultEncode;    
+    document.getElementById('cipherMessage').innerHTML = resultEncode;
+            
 });
 
 const decifrar = document.querySelector('#btnDecode');
@@ -26,5 +27,7 @@ decifrar.addEventListener('click', function(e) {
     let resultDecode = cipher.decode(offset, string);
     document.getElementById('message').innerHTML = resultDecode;    
 });
+
+c
 
 
