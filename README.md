@@ -1,5 +1,4 @@
 # Cifra de César
-<<<<<<< HEAD
 
 ## 1. Prefácio
 
