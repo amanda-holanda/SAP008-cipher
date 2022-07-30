@@ -32,7 +32,7 @@ O projeto foi desenvolvido durante o período do Bootcamp da  Laboratória Brasi
 
 Este configura uma aplicação web de cifragem na qual utilizou-se HTML, CSS e JavaScript como suas principais ferramentas. A lógica do projeto teve como base o sistema de cifragem da Cifra de César, possibillitando que o usuário cifre ou decifre um texto indicando uma chave de deslocamento. Foi desenvolvido com base em um protótipo de baixa fidelidade desenhado a seguir:
 
-![prototipo.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/239ec46f-623f-47ee-a329-c60f8565c0fc/prototipo.jpeg)
+![prototipo.jpeg](https://uploaddeimagens.com.br/imagens/jlHAPe8)
 
 O tema do projeto foi inspirado na Guerra da Ucrânica. Desenvolveu-se uma aplicação web de cifragem direcionada ao governo ucraniano com o objetivo dos integrantes do governo conseguirem se comunicar de forma segura internamente e evitar que suas mensagens sejam compreendidas pelo Governo Russo e outros países inimigos. 
 
