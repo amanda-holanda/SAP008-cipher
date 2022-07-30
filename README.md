@@ -1,19 +1,7 @@
 # Cifra de César
-
-# **Índice**
-
-- 1. Prefácio
-- 2. Resumo do projeto
-- 3. Interface do usuário
-- 4. Estrutura de organização dos arquivos
-- 5. Ferramentas utilizadas no projeto
-- 6. Ferramentas de programação utilizadas no projeto
-
-# 1. Prefácio
+## 1. Prefácio
 
 Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha.
-
-![60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28526de8-98b5-4e3d-b214-eb9280e468e7/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
 
@@ -26,7 +14,7 @@ Por exemplo se usarmos o deslocamento (*offset*) de 3 posições:
 
 Atualmente todas as cifras de substituição alfabética simples, são decifradas com facilidade e não oferecem muita segurança na comunicação por si mesma, mas a cifra de César muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-# 2. Resumo do projeto
+## 2. Resumo do projeto
 
 O projeto foi desenvolvido durante o período do Bootcamp da  Laboratória Brasil (turma SAP008). 
 
@@ -40,7 +28,7 @@ Logo, os principais usuários do produto são os integrantes do governo ucranian
 
 Dessa forma, o website foi desenvolvido com sua paleta de cores inspirada nas cores da bandeira da Ucrânia (azul e amarelo) e o seu nome “Ukraine Cipher” faz alusão a uma “Cifra da Ucrânia”. 
 
-# 3. Interface do usuário
+## 3. Interface do usuário
 
 A interface do projeto foi projetada com o objetivo de que o usuário:
 
@@ -50,7 +38,7 @@ A interface do projeto foi projetada com o objetivo de que o usuário:
 - Insira uma mensagem (texto) para ser decifrada;
 - Consiga ver o resultado da mensagem decifrada ao apertar o botão decifrar.
 
-# 4. Estrutura de organização dos arquivos
+## 4. Estrutura de organização dos arquivos
 
 A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 
@@ -59,14 +47,9 @@ A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 - cipher.js contém a lógica do código para o mecanismo de cifragem e de decifragem;
 - index.js contém a lógica do código de manipulação do DOM com interação do usuário na página.
 
-# 5. Ferramentas utilizadas no projeto
+## 5. Ferramentas utilizadas no projeto
 
 - Visual Studio Code (para desenvolver o código);
 - Notion (para o planning);
 - Git
 
-# 6. Ferramentas de programação utilizadas no projeto
-
-- HTML;
-- CSS;
-- JavaScript (vanilla).
