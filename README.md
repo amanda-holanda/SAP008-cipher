@@ -1,4 +1,5 @@
 # Cifra de César
+<<<<<<< HEAD
 
 ## 1. Prefácio
 
@@ -55,3 +56,4 @@ A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 - Visual Studio Code;
 - Notion;
 - Git. 
+
