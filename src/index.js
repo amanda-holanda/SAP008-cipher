@@ -28,6 +28,6 @@ decifrar.addEventListener('click', function(e) {
     document.getElementById('message').innerHTML = resultDecode;    
 });
 
-c
+
 
 

@@ -91,7 +91,7 @@ textarea {
     align-content: center;       
 }
 
-#btnEncode, #btnDecode {
+.btn {
     height: 100%;
     width: 100%;
     background-color: #ffcf01;
@@ -104,7 +104,11 @@ textarea {
     cursor: pointer;    
 }
 
-#btnEncode:hover, #btnDecode:hover {
+.btn.red {
+    background: tomato;
+}
+
+.btn:hover {
     background-color: gray;
 }
 
