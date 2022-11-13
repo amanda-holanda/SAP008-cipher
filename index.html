@@ -9,32 +9,32 @@
     <main>    
             
       <header> 
-        <h1>Ukraine Cipher</h1>      
+        <h1 class="header-text">Ukraine Cipher</h1>      
         <p><i>Seja bem-vindo(a)!</i></p>
       </header>      
 
       <form>     
         
-        <fieldset id="box-number">
+        <fieldset class="box number">
           <label for="offset">Escolha um número do deslocamento entre 1 e 60:   
             <input id="offset" type="number" min="1" max="60" placeholder="nº" required />        
           </label>
         </fieldset>
 
-        <div id="flex-container">
+        <div class="flex-container">
           
-          <fieldset id="box-message">
+          <fieldset class="box message">
             <label for="message">Mensagem:  </label>
               <textarea id="message" rows="5" cols="80" placeholder="Escreva aqui a mensagem que deseja criptografar..."></textarea>        
               
           </fieldset>       
                
-          <section id="box-button">
-            <input type="submit" id="btnEncode" value="Cifrar" />
-            <input type="submit" id="btnDecode" value="Decifrar" />          
+          <section class="box-button">
+            <input type="submit" class="btn" id="btnEncode" value="Cifrar" />
+            <input type="submit" class="btn"  id="btnDecode" value="Decifrar" />          
           </section>            
           
-          <fieldset id="box-cipher-message">
+          <fieldset class="box cipher-message" >
             <label for="cipherMessage">Mensagem criptografada: </label>
               <textarea id="cipherMessage" rows="5" cols="80" placeholder="Aqui está sua mensagem criptografada..."></textarea>        
               
