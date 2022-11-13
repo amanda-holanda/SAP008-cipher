@@ -22,7 +22,12 @@
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Protótipo de baixa fidelidade](#2-protótipo-de-baixa-fidelidade)
 * [3. Considerações técnicas](#3-considerações-técnicas)
-* 
+* [3.1 Interface do usuário](#31-interface-do-usuário)
+* [3.2 Organização dos arquivos](#32-organização-dos-arquivos)
+* [3.3 Ferramentas utilizadas](#33-ferramentas-utilizadas)
+* [3.4 Tech Skills](#34-tech-skills)
+* [3.5 Objetivos de Aprendizagem](#35-objetivos-de-aprendizagem)
+
 
 ## 1. Resumo do projeto
 
@@ -56,7 +61,7 @@ A interface do projeto foi idealizada com o objetivo de que o usuário:
 - Insira uma mensagem (texto) para ser decifrada;
 - Consiga ver o resultado da mensagem decifrada ao apertar o botão decifrar.
 
-## 3.2 Estrutura de organização dos arquivos
+### 3.2 Organização dos arquivos
 
 A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 
@@ -65,10 +70,13 @@ A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 - cipher.js contém a lógica do código para o mecanismo de cifragem e de decifragem;
 - index.js contém a lógica do código de manipulação do DOM com interação do usuário na página.
 
-## 3.3 Ferramentas utilizadas no projeto
+### 3.3 Ferramentas utilizadas
 
 - Visual Studio Code;
 - Notion;
 - Git;
 - GitHub
+
+### 3.4 Tech Skills
+### 3.5 Objetivos de Aprendizagem
 
