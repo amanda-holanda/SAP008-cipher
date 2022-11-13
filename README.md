@@ -38,9 +38,11 @@ Por fim, o website foi desenvolvido com sua paleta de cores inspirada nas cores 
 
 O desenvolvimento do projeto teve como base o protótipo de baixa fidelidade desenhado abaixo:
 
-<img src="prototipo.jpeg" alt="prototipo" style="height: 300px" />
+<img src="src/img/prototipo.jpeg" alt="prototipo" style="height: 300px" />
 
 ### Paleta de Cores:
+
+<img src="src/img/paletadecores.png" alt="prototipo" style="height: 200px" />
 
 ## 3. Considerações técnicas
 
