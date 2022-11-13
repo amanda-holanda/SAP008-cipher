@@ -22,11 +22,11 @@
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Protótipo de baixa fidelidade](#2-protótipo-de-baixa-fidelidade)
 * [3. Considerações técnicas](#3-considerações-técnicas)
-* [3.1 Interface do usuário](#31-interface-do-usuário)
-* [3.2 Organização dos arquivos](#32-organização-dos-arquivos)
-* [3.3 Ferramentas utilizadas](#33-ferramentas-utilizadas)
-* [3.4 Tech Skills](#34-tech-skills)
-* [3.5 Objetivos de Aprendizagem](#35-objetivos-de-aprendizagem)
+  * [3.1 Interface do usuário](#31-interface-do-usuário)
+  * [3.2 Organização dos arquivos](#32-organização-dos-arquivos)
+  * [3.3 Ferramentas utilizadas](#33-ferramentas-utilizadas)
+  * [3.4 Tech Skills](#34-tech-skills)
+  * [3.5 Objetivos de Aprendizagem](#35-objetivos-de-aprendizagem)
 
 
 ## 1. Resumo do projeto
