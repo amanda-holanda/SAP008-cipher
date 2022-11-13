@@ -65,10 +65,10 @@ A interface do projeto foi idealizada com o objetivo de que o usuário:
 
 A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 
-- index.html contém o código de estruturação da página web;
-- style.css contém o código de estilização da página web;
-- cipher.js contém a lógica do código para o mecanismo de cifragem e de decifragem;
-- index.js contém a lógica do código de manipulação do DOM com interação do usuário na página.
+- <i>index.html</i>: contém o código de estruturação da página web;
+- <i>style.css</i>: contém o código de estilização da página web;
+- <i>cipher.js</i>: contém a lógica do código para o mecanismo de cifragem e de decifragem;
+- <i>index.js</i>: contém a lógica do código de manipulação do DOM com interação do usuário na página.
 
 ### 3.3 Ferramentas utilizadas
 
@@ -83,6 +83,10 @@ A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 * CSS3;
 * JavaScript;
 * Web APIs
+* Controle de Versões (Git e GitHub)
+* User-centricity
+* Product-design
+* Autoaprendizagem
 * Metodologias Ágeis
 
 ### 3.5 Objetivos de Aprendizagem
