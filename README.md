@@ -47,7 +47,7 @@ O desenvolvimento do projeto teve como base o protótipo de baixa fidelidade des
 
 ### Paleta de Cores:
 
-<img src="src/img/paletadecores.png" alt="prototipo" style="height: 200px" />
+<img src="src/img/paletadecores.png" alt="prototipo" style="height: 100px" />
 
 ## 3. Considerações técnicas
 
@@ -72,11 +72,58 @@ A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 
 ### 3.3 Ferramentas utilizadas
 
-- Visual Studio Code;
-- Notion;
-- Git;
-- GitHub
+* Visual Studio Code;
+* Notion;
+* Git;
+* GitHub
 
 ### 3.4 Tech Skills
+
+* HTML5;
+* CSS3;
+* JavaScript;
+* Web APIs
+* Metodologias Ágeis
+
 ### 3.5 Objetivos de Aprendizagem
+
+#### HTML: 
+* Uso de HTML semântico
+
+#### CSS:
+* Uso de seletores de CSS;
+* Empregar o modelo de caixa (box model): borda, margem, preenchimento;
+
+#### Web APIs
+* Uso de seletores de DOM
+* Manipulação de eventos de DOM
+* Manipulação dinâmica de DOM
+
+#### JavaScript
+* Tipos de dados primitivos
+* Strings (cadeias de caracteres)
+* Variáveis (declaração, atribuição, escopo)
+* Uso de condicionais (if-else)
+* Uso de laços (for, for..of)
+* Uso de funções (parâmetros, argumentos, valor de retorno)
+* Testes unitários
+* Módulos de ECMAScript (ES modules)
+* Uso de linter (ESLINT)
+* Uso de identificadores descritivos (Nomenclatura | Semântica)
+
+#### Controle de Versões (Git e GitHub)
+
+* Git: Instalação e configuração
+* Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
+* GitHub: Criação de contas e repositórios, configuração de chave SSH
+* GitHub: Implantação com GitHub Pages
+
+#### user-centricity
+
+* Desenhar a aplicação pensando e entendendo a usuária
+
+#### product-design
+
+* Criar protótipos para obter feedback e iterar
+* Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
