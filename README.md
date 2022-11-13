@@ -1,35 +1,47 @@
-# Cifra de César
+<div align="center">
 
-## 1. Prefácio
+  # Ukraine Cipher
+  
+ <br>
 
-Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros tipos de criptografias conhecidas na história. O imperador romano Júlio César utilizava essa cifra para enviar ordens secretas aos seus generais no campo de batalha.
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="height: 30px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height: 30px;"/> 
+  
 
-![img](cifra.png)
+  <br>
+  
+  **Status do Projeto:** _Concluído_ 
 
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra que se encontra há um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
+  Confira o resultado do projeto [aqui](https://amanda-holanda.github.io/SAP008-cipher/) 
+  
+</div>
 
-Por exemplo se usarmos o deslocamento (*offset*) de 3 posições:
+## Índice
 
-- Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-- A letra A será D
-- A palavra CASA será FDVD
+* [1. Resumo do projeto](#1-resumo-do-projeto)
+* [2. Protótipo de baixa fidelidade](#2-protótipo-de-baixa-fidelidade)
+* [3. Considerações técnicas](#3-considerações-técnicas)
+* 
 
-Atualmente todas as cifras de substituição alfabética simples, são decifradas com facilidade e não oferecem muita segurança na comunicação por si mesma, mas a cifra de César muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
+## 1. Resumo do projeto
 
-## 2. Resumo do projeto
+O projeto Cifra de César foi o primeiro projeto desenvolvido no bootcamp da [Laboratoria](https://www.laboratoria.la/br). O seu principal objetivo era construir uma aplicação web (WebApp) que interagisse com o usuário final através do navegador utilizando HTML, CSS e JavaScript como ferramentas. Nela o usuário deve conseguir cifrar e decifrar um texto indicando a chave de deslocamento (offset), além de pensar em como deve ser a experiência do usuário (tela, explicações, mensagens, cores, marca?, etc.). A lógica do projeto teve como base o sistema de cifragem da Cifra de César.
 
-O projeto foi desenvolvido durante o período do Bootcamp da Laboratória Brasil (turma SAP008).
-
-Este configura uma aplicação web de cifragem na qual utilizou-se HTML, CSS e JavaScript para o seu desenvolvimento. A lógica do projeto teve como base o sistema de cifragem da Cifra de César, possibilitando que o usuário cifre ou decifre um texto indicando uma chave de deslocamento. Baseou-se no protótipo de baixa fidelidade desenhado abaixo:
-
-![prototipo](prototipo.jpeg)
-
-O tema do projeto foi inspirado na Guerra da Ucrânica. Desenvolveu-se uma aplicação web de cifragem direcionada ao governo ucraniano com o objetivo de que os integrantes do governo consigam se comunicar de forma segura internamente e, dessa maneira, evitar que suas mensagens sejam compreendidas pelo Governo Russo e outros países inimigos.
+A partir disso e com o tema inspirado na guerra da Ucrânia, desenvolveu-se o Ukraine Cipher: uma aplicação web de cifragem direcionada ao governo ucraniano com o objetivo de que os integrantes do governo consigam se comunicar de forma segura internamente e, dessa maneira, evitar que suas mensagens sejam compreendidas pelo Governo Russo e outros países inimigos. 
 
 Logo, os principais usuários do produto são os integrantes do governo ucraniano e o principal objetivo do mesmo é proporcionar segurança na comunicação do governo num contexto de guerra.
 
 Por fim, o website foi desenvolvido com sua paleta de cores inspirada nas cores da bandeira da Ucrânia (azul e amarelo) e o seu nome “Ukraine Cipher” faz alusão a uma “Cifra da Ucrânia”.
+
+## 2. Protótipo de baixa fidelidade
+
+O desenvolvimento do projeto teve como base o protótipo de baixa fidelidade desenhado abaixo:
+
+<img src="prototipo.jpeg" alt="prototipo" style="height: 300px" />
+
+### Paleta de Cores:
 
 ## 3. Interface do usuário
 
@@ -54,5 +66,6 @@ A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 
 - Visual Studio Code;
 - Notion;
-- Git. 
+- Git;
+- GitHub
 
