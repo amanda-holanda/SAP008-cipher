@@ -9,7 +9,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style="height: 30px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height: 30px;"/> 
   
-
   <br>
   
   **Status do Projeto:** _Concluído_ 
@@ -33,7 +32,7 @@ A partir disso e com o tema inspirado na guerra da Ucrânia, desenvolveu-se o Uk
 
 Logo, os principais usuários do produto são os integrantes do governo ucraniano e o principal objetivo do mesmo é proporcionar segurança na comunicação do governo num contexto de guerra.
 
-Por fim, o website foi desenvolvido com sua paleta de cores inspirada nas cores da bandeira da Ucrânia (azul e amarelo) e o seu nome “Ukraine Cipher” faz alusão a uma “Cifra da Ucrânia”.
+Por fim, o website foi desenvolvido com sua paleta de cores inspirada nas cores da bandeira da Ucrânia e o seu nome “Ukraine Cipher” faz alusão a uma “Cifra da Ucrânia”.
 
 ## 2. Protótipo de baixa fidelidade
 
@@ -43,7 +42,9 @@ O desenvolvimento do projeto teve como base o protótipo de baixa fidelidade des
 
 ### Paleta de Cores:
 
-## 3. Interface do usuário
+## 3. Considerações técnicas
+
+### 3.1 Interface do usuário
 
 A interface do projeto foi idealizada com o objetivo de que o usuário:
 
@@ -53,7 +54,7 @@ A interface do projeto foi idealizada com o objetivo de que o usuário:
 - Insira uma mensagem (texto) para ser decifrada;
 - Consiga ver o resultado da mensagem decifrada ao apertar o botão decifrar.
 
-## 4. Estrutura de organização dos arquivos
+## 3.2 Estrutura de organização dos arquivos
 
 A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 
@@ -62,7 +63,7 @@ A estruturação dos arquivos da aplicação web se dá da seguinte forma:
 - cipher.js contém a lógica do código para o mecanismo de cifragem e de decifragem;
 - index.js contém a lógica do código de manipulação do DOM com interação do usuário na página.
 
-## 5. Ferramentas utilizadas no projeto
+## 3.3 Ferramentas utilizadas no projeto
 
 - Visual Studio Code;
 - Notion;
